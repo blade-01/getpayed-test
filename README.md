@@ -102,11 +102,11 @@ Environment variables are defined in .env:
 - Exported CSV doesn’t apply Excel-native currency formatting (shows plain numbers without currency code).
 
 ## 📸 Screenshots
-<image src='./src/assets/scr-1.png'/>
-<image src='./src/assets/scr-2.png'/>
+<image src='public/scr-1.png'/>
+<image src='public/scr-2.png'/>
 
 ## 🔗 Loom Link
-[Link]('')
+[Link]('https://www.loom.com/share/0095430d2b684b499ca364d9d6bfceb2?sid=aae6e21a-9ebd-424a-88e3-265d5c7eccc3')
 
 ## 📂 Deliverables
 - ✅ Repo with instructions to run locally (README.md).

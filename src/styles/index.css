@@ -1,0 +1,13 @@
+@import "tailwindcss";
+
+.input-style {
+  @apply w-full focus:border-[#6366f180] border border-gray-400 rounded-md shadow-sm bg-transparent py-2 px-2.5 placeholder:text-gray-700;
+}
+
+.print-safe,
+.print-safe * {
+  color: rgb(17 24 39);
+  background-color: rgb(255 255 255);
+  --tw-ring-color: #6366f180;
+  --primary: 79 70 229;
+}

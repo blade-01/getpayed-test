@@ -1,0 +1,114 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Ava Carter",
+      "email": "ava@example.com",
+      "role": "manager"
+    },
+    {
+      "id": 2,
+      "name": "Noah Lee",
+      "email": "noah@example.com",
+      "role": "analyst"
+    },
+    {
+      "id": 3,
+      "name": "Mia Patel",
+      "email": "mia@example.com",
+      "role": "engineer"
+    }
+  ],
+  "projects": [
+    {
+      "id": 1,
+      "name": "Website Revamp",
+      "ownerId": 1,
+      "status": "active",
+      "createdAt": "2025-07-01"
+    },
+    {
+      "id": 2,
+      "name": "Mobile App",
+      "ownerId": 2,
+      "status": "paused",
+      "createdAt": "2025-06-10"
+    }
+  ],
+  "tasks": [
+    {
+      "id": 101,
+      "projectId": 1,
+      "title": "Design dashboard",
+      "assigneeId": 3,
+      "priority": "high",
+      "status": "in_progress",
+      "estimateHours": 16,
+      "completedAt": null,
+      "createdAt": "2025-07-02",
+      "dueDate": "2025-07-31",
+      "tags": ["ui", "charts"]
+    },
+    {
+      "id": 102,
+      "projectId": 1,
+      "title": "Connect analytics",
+      "assigneeId": 2,
+      "priority": "medium",
+      "status": "todo",
+      "estimateHours": 12,
+      "completedAt": null,
+      "createdAt": "2025-07-03",
+      "dueDate": "2025-08-05",
+      "tags": ["metrics"]
+    },
+    {
+      "id": 103,
+      "projectId": 2,
+      "title": "Auth flow",
+      "assigneeId": 3,
+      "priority": "high",
+      "status": "done",
+      "estimateHours": 10,
+      "completedAt": "2025-07-15",
+      "createdAt": "2025-06-12",
+      "dueDate": "2025-07-15",
+      "tags": ["security"]
+    }
+  ],
+  "activities": [
+    {
+      "id": 9001,
+      "type": "task_created",
+      "taskId": 101,
+      "actorId": 1,
+      "at": "2025-07-02T09:10:00Z"
+    },
+    {
+      "id": 9002,
+      "type": "task_completed",
+      "taskId": 103,
+      "actorId": 3,
+      "at": "2025-07-15T17:25:00Z"
+    }
+  ],
+  "insights": [
+    {
+      "id": "burndown",
+      "series": [
+        { "date": "2025-07-01", "open": 12, "done": 0 },
+        { "date": "2025-07-08", "open": 10, "done": 2 },
+        { "date": "2025-07-15", "open": 7, "done": 5 },
+        { "date": "2025-07-22", "open": 5, "done": 7 }
+      ]
+    },
+    {
+      "id": "byPriority",
+      "rows": [
+        { "priority": "high", "count": 8 },
+        { "priority": "medium", "count": 11 },
+        { "priority": "low", "count": 5 }
+      ]
+    }
+  ]
+}

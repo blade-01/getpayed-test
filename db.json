@@ -1,0 +1,246 @@
+{
+  "kpis": [
+    { "date": "2025-08-10", "revenue": 500, "orders": 2, "activeCustomers": 2 },
+    { "date": "2025-08-11", "revenue": 700, "orders": 3, "activeCustomers": 3 },
+    { "date": "2025-08-12", "revenue": 900, "orders": 4, "activeCustomers": 4 },
+    {
+      "date": "2025-08-13",
+      "revenue": 1200,
+      "orders": 5,
+      "activeCustomers": 5
+    },
+    {
+      "date": "2025-08-14",
+      "revenue": 1000,
+      "orders": 3,
+      "activeCustomers": 4
+    },
+    {
+      "date": "2025-08-15",
+      "revenue": 1500,
+      "orders": 6,
+      "activeCustomers": 6
+    },
+    {
+      "date": "2025-08-16",
+      "revenue": 1800,
+      "orders": 7,
+      "activeCustomers": 7
+    },
+    {
+      "date": "2025-08-17",
+      "revenue": 2000,
+      "orders": 8,
+      "activeCustomers": 8
+    },
+    {
+      "date": "2025-08-18",
+      "revenue": 1700,
+      "orders": 5,
+      "activeCustomers": 5
+    },
+    { "date": "2025-08-19", "revenue": 2200, "orders": 9, "activeCustomers": 9 }
+  ],
+  "orders": [
+    {
+      "id": 1,
+      "customerId": "C-1",
+      "amount": 1200,
+      "status": "completed",
+      "date": "2025-08-10",
+      "productCategory": "Laptop",
+      "channel": "web",
+      "currency": "EUR"
+    },
+    {
+      "id": 2,
+      "customerId": "C-2",
+      "amount": 800,
+      "status": "pending",
+      "date": "2025-08-11",
+      "productCategory": "Smartphone",
+      "channel": "store",
+      "currency": "EUR"
+    },
+    {
+      "id": 3,
+      "customerId": "C-3",
+      "amount": 150,
+      "status": "shipped",
+      "date": "2025-08-12",
+      "productCategory": "Headphones",
+      "channel": "mobile",
+      "currency": "USD"
+    },
+    {
+      "id": 4,
+      "customerId": "C-4",
+      "amount": 300,
+      "status": "completed",
+      "date": "2025-08-13",
+      "productCategory": "Monitor",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 5,
+      "customerId": "C-5",
+      "amount": 100,
+      "status": "cancelled",
+      "date": "2025-08-14",
+      "productCategory": "Keyboard",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 6,
+      "customerId": "C-6",
+      "amount": 950,
+      "status": "completed",
+      "date": "2025-08-15",
+      "productCategory": "Shoes",
+      "channel": "store",
+      "currency": "USD"
+    },
+    {
+      "id": 7,
+      "customerId": "C-7",
+      "amount": 400,
+      "status": "pending",
+      "date": "2025-08-16",
+      "productCategory": "Bags",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 8,
+      "customerId": "C-8",
+      "amount": 600,
+      "status": "shipped",
+      "date": "2025-08-17",
+      "productCategory": "Accessories",
+      "channel": "mobile",
+      "currency": "USD"
+    },
+    {
+      "id": 9,
+      "customerId": "C-9",
+      "amount": 1300,
+      "status": "completed",
+      "date": "2025-08-18",
+      "productCategory": "Tablet",
+      "channel": "store",
+      "currency": "USD"
+    },
+    {
+      "id": 10,
+      "customerId": "C-10",
+      "amount": 700,
+      "status": "completed",
+      "date": "2025-08-19",
+      "productCategory": "Smartwatch",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 11,
+      "customerId": "C-11",
+      "amount": 1100,
+      "status": "completed",
+      "date": "2025-08-10",
+      "productCategory": "Laptop",
+      "channel": "mobile",
+      "currency": "USD"
+    },
+    {
+      "id": 12,
+      "customerId": "C-12",
+      "amount": 250,
+      "status": "pending",
+      "date": "2025-08-11",
+      "productCategory": "Headphones",
+      "channel": "store",
+      "currency": "USD"
+    },
+    {
+      "id": 13,
+      "customerId": "C-13",
+      "amount": 1450,
+      "status": "completed",
+      "date": "2025-08-12",
+      "productCategory": "Desktop",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 14,
+      "customerId": "C-14",
+      "amount": 550,
+      "status": "shipped",
+      "date": "2025-08-13",
+      "productCategory": "Monitor",
+      "channel": "store",
+      "currency": "USD"
+    },
+    {
+      "id": 15,
+      "customerId": "C-15",
+      "amount": 900,
+      "status": "cancelled",
+      "date": "2025-08-14",
+      "productCategory": "Keyboard",
+      "channel": "mobile",
+      "currency": "USD"
+    },
+    {
+      "id": 16,
+      "customerId": "C-16",
+      "amount": 650,
+      "status": "completed",
+      "date": "2025-08-15",
+      "productCategory": "Shoes",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 17,
+      "customerId": "C-17",
+      "amount": 1400,
+      "status": "pending",
+      "date": "2025-08-16",
+      "productCategory": "Smartphone",
+      "channel": "store",
+      "currency": "USD"
+    },
+    {
+      "id": 18,
+      "customerId": "C-18",
+      "amount": 480,
+      "status": "completed",
+      "date": "2025-08-17",
+      "productCategory": "Accessories",
+      "channel": "mobile",
+      "currency": "USD"
+    },
+    {
+      "id": 19,
+      "customerId": "C-19",
+      "amount": 1020,
+      "status": "shipped",
+      "date": "2025-08-18",
+      "productCategory": "Tablet",
+      "channel": "web",
+      "currency": "USD"
+    },
+    {
+      "id": 20,
+      "customerId": "C-20",
+      "amount": 350,
+      "status": "completed",
+      "date": "2025-08-19",
+      "productCategory": "Smartwatch",
+      "channel": "store",
+      "currency": "USD"
+    }
+  ]
+}
